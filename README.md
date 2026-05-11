@@ -3,7 +3,7 @@ This project analyzes MAVLink vulnerabilities. It proposes a secure implementati
 
 # Usage
 if you want to run this project you will need to:
- - Install the MAVLink protocol on your Linux machine following this guide: mavlink.io/en/getting_started/installation.html.
+ - Install the MAVLink protocol on your Linux machine following this [guide](mavlink.io/en/getting_started/installation.html).
  - Definition af the "secure" dialect illustrated on the page 35 of the report.
 
 To use the "secure" dialect it is important to follow these steps:
@@ -14,3 +14,7 @@ To use the "secure" dialect it is important to follow these steps:
  - Uninstall any pre-existing version of pymavlink to avoid conflicts: `pip uninstall pymavlink`.
  - Install `pymavlink` along with all its dependencies: `python3 -m pip install -r pymavlink/requirements.txt`.
  - Finally, run the Python setup script: `python3 setup.py install --use`.
+
+Useful links:
+ - [Link 1](https://mavlink.io/en/mavgen_python/#getting-the-python-mavlink-libraries).
+ - [Link 2](https://mavlink.io/en/getting_started/generate_libraries.html).
