@@ -3,7 +3,7 @@ This project analyzes MAVLink vulnerabilities. It proposes a secure implementati
 
 # Usage
 if you want to run this project you will need to:
- - Install the MAVLink protocol on your Linux machine following this [guide](mavlink.io/en/getting_started/installation.html).
+ - Install the MAVLink protocol on your Linux machine following this [guide](http://mavlink.io/en/getting_started/installation.html).
  - Definition af the "secure" dialect illustrated on the page 35 of the report.
 
 To use the "secure" dialect it is important to follow these steps:
